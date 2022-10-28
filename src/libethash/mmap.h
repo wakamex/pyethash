@@ -44,4 +44,4 @@ void munmap(void* addr, size_t length);
 #include <sys/mman.h>
 #endif
 
-#pragma comment(lib, "Shell32.lib")
+
