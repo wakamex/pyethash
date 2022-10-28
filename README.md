@@ -3,20 +3,12 @@
 
 # Ethash
 
-For details on this project, please see the Ethereum wiki:
-https://github.com/ethereum/wiki/wiki/Ethash
+### Confusion
 
-### Coding Style for C++ code:
+Not to be confused with:
+- the [Go version this is a wrapper for](https://github.com/ethereum/go-ethereum/tree/master/consensus/ethash)
+- the low-level library (also in python) https://github.com/ethereum/eth-hash
 
-Follow the same exact style as in [cpp-ethereum](https://github.com/ethereum/cpp-ethereum/blob/develop/CodingStandards.txt)
+### Hashing function
 
-### Coding Style for C code:
-
-The main thing above all is code consistency.
-
-- Tabs for indentation. A tab is 4 spaces
-- Try to stick to the [K&R](http://en.wikipedia.org/wiki/Indent_style#K.26R_style),
-  especially for the C code.
-- Keep the line lengths reasonable. No hard limit on 80 characters but don't go further
-  than 110. Some people work with multiple buffers next to each other.
-  Make them like you :)
+For info on the mining algorithm, visit [ethereum.org](https://ethereum.org/en/developers/docs/consensus-mechanisms/pow/mining-algorithms/)
